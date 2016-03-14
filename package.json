@@ -1,22 +1,26 @@
 {
-  "name": "1grids",
-  "version": "4.0.0",
-  "description": "A Professional but Simple CSS Grid System.",
+  "name": "1helper",
+  "version": "0.1.0",
+  "description": "Collection of useful and common css classes.",
   "main": "index.scss",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/AliMD/1Grids.git"
+    "url": "git+ssh://git@github.com/AliMD/1Helper.git"
   },
   "keywords": [
-    "1grids",
-    "1grid",
-    "grids",
-    "grid",
+    "1helper",
+    "1helpers",
+    "1help",
+    "help",
+    "helpers",
+    "helper",
+    "csshelper",
     "css",
-    "stylus",
+    "sass",
+    "scss",
     "1devs",
     "alimd",
     "ali",
@@ -25,7 +29,7 @@
   "author": "Ali Mihandoost <i@ali.md> (http://ali.md/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/AliMD/1Grids/issues"
+    "url": "https://github.com/AliMD/1Helper/issues"
   },
-  "homepage": "http://alimd.github.io/1Grids"
+  "homepage": "http://alimd.github.io/1Helper"
 }
