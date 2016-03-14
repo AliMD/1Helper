@@ -1,0 +1,527 @@
+/**
+ * 1Grids v0.1.0
+ * http://alimd.github.io/1Helper
+ */
+
+.antialiased {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale
+}
+
+.text-center {
+  text-align: center
+}
+
+.text-start {
+  text-align: left
+}
+
+.text-end {
+  text-align: right
+}
+
+[dir="rtl"].text-start,
+[dir="rtl"] .text-start {
+  text-align: right
+}
+
+[dir="rtl"].text-end,
+[dir="rtl"] .text-end {
+  text-align: left
+}
+
+.text-justify {
+  text-align: justify
+}
+
+.text-upper {
+  text-transform: uppercase
+}
+
+.text-lower {
+  text-transform: lowercase
+}
+
+.text-capital {
+  text-transform: capitalize
+}
+
+.text-ellipsis {
+  text-overflow: ellipsis
+}
+
+.vertical-top {
+  vertical-align: top
+}
+
+.vertical-middle {
+  vertical-align: middle
+}
+
+.vertical-bottom {
+  vertical-align: bottom
+}
+
+.mar-none {
+  margin: 0
+}
+
+.mla,
+.mlra,
+.mrla,
+.msa {
+  margin-left: auto
+}
+
+.mea,
+.mlra,
+.mra,
+.mrla {
+  margin-right: auto
+}
+
+[dir="rtl"] .msa {
+  margin-left: 0;
+  margin-right: auto
+}
+
+[dir="rtl"] .mea {
+  margin-right: 0;
+  margin-left: auto
+}
+
+.mare,
+.marh,
+.marr {
+  margin-right: 1em
+}
+
+.mar {
+  margin: 1em
+}
+
+.mart,
+.marv {
+  margin-top: 1em
+}
+
+.marb,
+.marv {
+  margin-bottom: 1em
+}
+
+.marh,
+.marl,
+.mars {
+  margin-left: 1em
+}
+
+[dir="rtl"] .mars {
+  margin-left: 0;
+  margin-right: 1em
+}
+
+[dir="rtl"] .mare {
+  margin-right: 0;
+  margin-left: 1em
+}
+
+.xmare,
+.xmarh,
+.xmarr {
+  margin-right: 2em
+}
+
+.xmar {
+  margin: 2em
+}
+
+.xmart,
+.xmarv {
+  margin-top: 2em
+}
+
+.xmarb,
+.xmarv {
+  margin-bottom: 2em
+}
+
+.xmarh,
+.xmarl,
+.xmars {
+  margin-left: 2em
+}
+
+[dir="rtl"] .xmars {
+  margin-left: 0;
+  margin-right: 2em
+}
+
+[dir="rtl"] .xmare {
+  margin-right: 0;
+  margin-left: 2em
+}
+
+.pade,
+.padh,
+.padr {
+  padding-right: 1em
+}
+
+.pad {
+  padding: 1em
+}
+
+.padt,
+.padv {
+  padding-top: 1em
+}
+
+.padb,
+.padv {
+  padding-bottom: 1em
+}
+
+.padh,
+.padl,
+.pads {
+  padding-left: 1em
+}
+
+[dir="rtl"] .pads {
+  padding-left: 0;
+  padding-right: 1em
+}
+
+[dir="rtl"] .pade {
+  padding-right: 0;
+  padding-left: 1em
+}
+
+.xpade,
+.xpadh,
+.xpadr {
+  padding-right: 2em
+}
+
+.xpad {
+  padding: 2em
+}
+
+.xpadt,
+.xpadv {
+  padding-top: 2em
+}
+
+.xpadb,
+.xpadv {
+  padding-bottom: 2em
+}
+
+.xpadh,
+.xpadl,
+.xpads {
+  padding-left: 2em
+}
+
+[dir="rtl"] .xpads {
+  padding-left: 0;
+  padding-right: 2em
+}
+
+[dir="rtl"] .xpade {
+  padding-right: 0;
+  padding-left: 2em
+}
+
+.fs-xsmall {
+  font-size: .7em
+}
+
+.fs-small {
+  font-size: .8em
+}
+
+.fs-medium {
+  font-size: .9em
+}
+
+.fs-large {
+  font-size: 1.1em
+}
+
+.fs-xlarge {
+  font-size: 1.2em
+}
+
+.block {
+  display: block
+}
+
+.table {
+  display: table
+}
+
+.vertical-center {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translate3d(0, -50%, 0);
+  -moz-transform: translate3d(0, -50%, 0);
+  transform: translate3d(0, -50%, 0)
+}
+
+.bold-icon:before {
+  font-weight: 700
+}
+
+.bg-contain,
+.bg-cover {
+  background-repeat: no-repeat;
+  background-position: center center
+}
+
+.bg-cover {
+  background-size: cover
+}
+
+.bg-contain {
+  background-size: contain
+}
+
+.bg-top {
+  background-position-y: top
+}
+
+.bg-bottom {
+  background-position-y: bottom
+}
+
+.bg-left {
+  background-position-x: left
+}
+
+.bg-right {
+  background-position-x: right
+}
+
+.bg-start {
+  background-position-x: left
+}
+
+.bg-end,
+[dir="rtl"] .bg-start {
+  background-position-x: right
+}
+
+[dir="rtl"] .bg-end {
+  background-position-x: left
+}
+
+.bg-transparent {
+  background-color: transparent
+}
+
+.bg-white {
+  background-color: #fff
+}
+
+.full-height {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  min-height: 100%;
+  height: 100%
+}
+
+.flex-column-container,
+.flex-row-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex
+}
+
+.hidden,
+.hide {
+  display: none
+}
+
+.flex-column-container {
+  -webkit-box-orient: vertical;
+  -webkit-flex-direction: column;
+  -moz-box-orient: vertical;
+  -ms-flex-direction: column;
+  flex-direction: column
+}
+
+.flex-row-container {
+  -webkit-box-orient: horizontal;
+  -webkit-flex-direction: row;
+  -moz-box-orient: horizontal;
+  -ms-flex-direction: row;
+  flex-direction: row
+}
+
+.flex-coil {
+  -webkit-box-flex: 1000;
+  -webkit-flex-grow: 1000;
+  -moz-box-flex: 1000;
+  -ms-flex-positive: 1000;
+  flex-grow: 1000
+}
+
+.imgrep {
+  text-indent: 100%
+}
+
+.fixed {
+  position: fixed
+}
+
+.relative {
+  position: relative
+}
+
+.absolute,
+.stuck-with-bottom,
+.stuck-with-top {
+  position: absolute
+}
+
+.stuck-with-bottom,
+.stuck-with-top {
+  left: 0;
+  right: 0
+}
+
+.stuck-with-bottom {
+  top: auto;
+  bottom: 0
+}
+
+.stuck-with-top {
+  top: 0;
+  bottom: auto
+}
+
+.cursor-pointer {
+  cursor: pointer
+}
+
+.back-drop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 8000;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  background-color: rgba(0, 0, 0, .4);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  opacity: 0;
+  -webkit-transition: opacity .1s linear;
+  -moz-transition: opacity .1s linear;
+  transition: opacity .1s linear
+}
+
+.back-drop.active,
+.back-drop.visible {
+  visibility: visible
+}
+
+.back-drop.visible {
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+  opacity: 1
+}
+
+.back-drop .close-btn {
+  position: absolute;
+  top: 1.5em;
+  right: 1.5em;
+  color: #fff;
+  text-shadow: 0 1px 0 #000
+}
+
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto
+}
+
+.show {
+  display: block
+}
+
+.text-hide {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0
+}
+
+.banner .title,
+.block-title,
+.token.bold,
+.token.important {
+  font-weight: 700
+}
+
+.select-none {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none
+}
+
+.text-bottom {
+  vertical-align: text-bottom
+}
+
+.z-modal {
+  z-index: 9000
+}
+
+.z-above {
+  z-index: 2
+}
+
+.z-default {
+  z-index: 1
+}
+
+.z-below {
+  z-index: -1
+}
+
+.z-bottomless {
+  z-index: -9000
+}
+
+.overflow-hidden {
+  overflow: hidden
+}
+
+.overflow-auto {
+  overflow: auto
+}
+
+.grid-pad>.box {
+  padding-left: 1em;
+  padding-right: 1em
+}
