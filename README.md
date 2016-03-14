@@ -39,7 +39,6 @@ npm install 1helper
 #### Sass
 import `1Helper` folder in your sass project
 ```scss
-// grid_num = 12
 @import '1Helper/'
 ```
 
