@@ -1,0 +1,25 @@
+/**
+ * Float classes
+ */
+
+.float-right {
+  float: right;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-start {
+  float: left;
+  [dir="rtl"] & {
+    float: right;
+  }
+}
+
+.float-end {
+  float: right;
+  [dir="rtl"] & {
+    float: left;
+  }
+}

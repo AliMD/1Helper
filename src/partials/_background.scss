@@ -1,0 +1,55 @@
+/**
+ * Background Classes
+ */
+
+.bg-cover,
+.bg-contain {
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-contain {
+  background-size: contain;
+}
+
+.bg-top {
+  background-position-y: top;
+}
+
+.bg-bottom {
+  background-position-y: bottom;
+}
+
+.bg-left {
+  background-position-x: left;
+}
+
+.bg-right {
+  background-position-x: right;
+}
+
+.bg-start {
+  background-position-x: left;
+  [dir="rtl"] & {
+    background-position-x: right;
+  }
+}
+
+.bg-end {
+  background-position-x: right;
+  [dir="rtl"] & {
+    background-position-x: left;
+  }
+}
+
+.bg-transparent {
+  background-color: transparent;
+}
+
+.bg-white {
+  background-color: hsl(0, 100%, 100%);
+}

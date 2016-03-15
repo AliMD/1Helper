@@ -1,0 +1,70 @@
+/**
+ * Some visual and positioning classes
+ */
+
+.ltr {
+  direction: ltr;
+}
+
+.rtl {
+  direction: rtl;
+}
+
+.display-block {
+  display: block;
+}
+
+.display-table {
+  display: table;
+}
+
+.display-hidden {
+  display: none;
+}
+
+
+.position-fixed {
+  position: fixed;
+}
+
+.position-relative {
+  position: relative;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.full-height {
+  min-height: 100%;
+  height: 100%;
+}
+
+/**
+ * Hide text for SEO
+ * more: http://www.zeldman.com/2012/03/01/replacing-the-9999px-hack-new-image-replacement/
+ */
+.imgrep {
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.visuallyhidde { 
+  border:0;
+  clip:rect(0 0 0 0);
+  height:1px;
+  margin:-1px;
+  overflow:hidden;
+  padding:0;
+  position: absolute;
+  width:1px;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.overflow-auto {
+  overflow: auto;
+}

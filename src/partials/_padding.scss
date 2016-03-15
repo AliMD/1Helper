@@ -1,0 +1,87 @@
+/**
+ * Padding Classes
+ */
+
+.pad-none {
+  padding: 0;
+}
+
+.pad {
+  padding: 1em;
+}
+
+.padt,
+.padv {
+  padding-top: 1em;
+}
+
+.padb,
+.padv {
+  padding-bottom: 1em;
+}
+
+.padr,
+.padh {
+  padding-right: 1em;
+}
+
+.padl,
+.padh {
+  padding-left: 1em;
+}
+
+.pads {
+  padding-left: 1em;
+  [dir="rtl"] & {
+    padding-left: 0;
+    padding-right: 1em;
+  }
+}
+
+.pade {
+  padding-right: 1em;
+  [dir="rtl"] & {
+    padding-right: 0;
+    padding-left: 1em;
+  }
+}
+
+.xpad {
+  padding: 2em;
+}
+
+.xpadt,
+.xpadv {
+  padding-top: 2em;
+}
+
+.xpadb,
+.xpadv {
+  padding-bottom: 2em;
+}
+
+.xpadr,
+.xpadh {
+  padding-right: 2em;
+}
+
+.xpadl,
+.xpadh {
+  padding-left: 2em;
+}
+
+.xpads {
+  padding-left: 2em;
+  [dir="rtl"] & {
+    padding-left: 0;
+    padding-right: 2em;
+  }
+}
+
+.xpade {
+  padding-right: 2em;
+  [dir="rtl"] & {
+    padding-right: 0;
+    padding-left: 2em;
+  }
+}
