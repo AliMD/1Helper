@@ -2,3 +2,600 @@
  * 1Helper v0.1.0
  * http://alimd.github.io/1Helper
  */
+
+/**
+ * Background Classes
+ */
+.bg-cover,
+.bg-contain
+{
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.bg-cover
+{
+  background-size: cover;
+}
+
+.bg-contain
+{
+  background-size: contain;
+}
+
+.bg-top
+{
+  background-position-y: top;
+}
+
+.bg-bottom
+{
+  background-position-y: bottom;
+}
+
+.bg-left
+{
+  background-position-x: left;
+}
+
+.bg-right
+{
+  background-position-x: right;
+}
+
+.bg-start
+{
+  background-position-x: left;
+}
+[dir='rtl'] .bg-start
+{
+  background-position-x: right;
+}
+
+.bg-end
+{
+  background-position-x: right;
+}
+[dir='rtl'] .bg-end
+{
+  background-position-x: left;
+}
+
+.bg-transparent
+{
+  background-color: transparent;
+}
+
+.bg-white
+{
+  background-color: white;
+}
+
+/**
+ * Clearfix
+ */
+.cf:before,
+.cf:after,
+.clearfix:before,
+.clearfix:after
+{
+  display: table; 
+
+  content: ' ';
+}
+
+.cf:after,
+.clearfix:after
+{
+  clear: both;
+}
+
+/**
+ * Colorful classes
+ */
+.success
+{
+  color: #4cae4f;
+}
+
+.alert
+{
+  color: #f44034;
+}
+
+.secondary
+{
+  color: #9e9e9e;
+}
+
+.warning
+{
+  color: #ffec3d;
+}
+
+.info
+{
+  color: #2094f3;
+}
+
+/**
+ * Some visual and positioning classes
+ */
+.ltr
+{
+  direction: ltr;
+}
+
+.rtl
+{
+  direction: rtl;
+}
+
+.display-block
+{
+  display: block;
+}
+
+.display-table
+{
+  display: table;
+}
+
+.display-hidden
+{
+  display: none;
+}
+
+.position-fixed
+{
+  position: fixed;
+}
+
+.position-relative
+{
+  position: relative;
+}
+
+.hidden
+{
+  visibility: hidden;
+}
+
+.full-height
+{
+  height: 100%; 
+  min-height: 100%;
+}
+
+/**
+ * Hide text for SEO
+ * more: http://www.zeldman.com/2012/03/01/replacing-the-9999px-hack-new-image-replacement/
+ */
+.imgrep
+{
+  overflow: hidden; 
+
+  white-space: nowrap;
+  text-indent: 100%;
+}
+
+.visuallyhidde
+{
+  position: absolute;
+
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+
+  width: 1px; 
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+
+  border: 0;
+}
+
+.overflow-hidden
+{
+  overflow: hidden;
+}
+
+.overflow-auto
+{
+  overflow: auto;
+}
+
+/**
+ * Flexbox Classes
+ */
+.flex-column-container,
+.flex-row-container
+{
+  display: flex;
+}
+
+.flex-column-container
+{
+  flex-direction: column;
+}
+
+.flex-row-container
+{
+  flex-direction: row;
+}
+
+/**
+ * Float classes
+ */
+.float-right
+{
+  float: right;
+}
+
+.float-left
+{
+  float: left;
+}
+
+.float-start
+{
+  float: left;
+}
+[dir='rtl'] .float-start
+{
+  float: right;
+}
+
+.float-end
+{
+  float: right;
+}
+[dir='rtl'] .float-end
+{
+  float: left;
+}
+
+/**
+ * Font Classes
+ */
+.antialiased
+{
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.fs-xsmall
+{
+  font-size: .7em;
+}
+
+.fs-small
+{
+  font-size: .8em;
+}
+
+.fs-medium
+{
+  font-size: .9em;
+}
+
+.fs-large
+{
+  font-size: 1.1em;
+}
+
+.fs-xlarge
+{
+  font-size: 1.2em;
+}
+
+.fw-bold
+{
+  font-weight: bold;
+}
+
+/**
+ * Margin Classes
+ */
+.mar-none
+{
+  margin: 0;
+}
+
+.mla,
+.mlra,
+.mrla
+{
+  margin-left: auto;
+}
+
+.mra,
+.mlra,
+.mrla
+{
+  margin-right: auto;
+}
+
+.msa
+{
+  margin-left: auto;
+}
+[dir='rtl'] .msa
+{
+  margin-right: auto; 
+  margin-left: 0;
+}
+
+.mea
+{
+  margin-right: auto;
+}
+[dir='rtl'] .mea
+{
+  margin-right: 0;
+  margin-left: auto;
+}
+
+.mar
+{
+  margin: 1em;
+}
+
+.mart,
+.marv
+{
+  margin-top: 1em;
+}
+
+.marb,
+.marv
+{
+  margin-bottom: 1em;
+}
+
+.marr,
+.marh
+{
+  margin-right: 1em;
+}
+
+.marl,
+.marh
+{
+  margin-left: 1em;
+}
+
+.mars
+{
+  margin-left: 1em;
+}
+[dir='rtl'] .mars
+{
+  margin-right: 1em; 
+  margin-left: 0;
+}
+
+.mare
+{
+  margin-right: 1em;
+}
+[dir='rtl'] .mare
+{
+  margin-right: 0;
+  margin-left: 1em;
+}
+
+.xmar
+{
+  margin: 2em;
+}
+
+.xmart,
+.xmarv
+{
+  margin-top: 2em;
+}
+
+.xmarb,
+.xmarv
+{
+  margin-bottom: 2em;
+}
+
+.xmarr,
+.xmarh
+{
+  margin-right: 2em;
+}
+
+.xmarl,
+.xmarh
+{
+  margin-left: 2em;
+}
+
+.xmars
+{
+  margin-left: 2em;
+}
+[dir='rtl'] .xmars
+{
+  margin-right: 2em; 
+  margin-left: 0;
+}
+
+.xmare
+{
+  margin-right: 2em;
+}
+[dir='rtl'] .xmare
+{
+  margin-right: 0;
+  margin-left: 2em;
+}
+
+/**
+ * Padding Classes
+ */
+.pad-none
+{
+  padding: 0;
+}
+
+.pad
+{
+  padding: 1em;
+}
+
+.padt,
+.padv
+{
+  padding-top: 1em;
+}
+
+.padb,
+.padv
+{
+  padding-bottom: 1em;
+}
+
+.padr,
+.padh
+{
+  padding-right: 1em;
+}
+
+.padl,
+.padh
+{
+  padding-left: 1em;
+}
+
+.pads
+{
+  padding-left: 1em;
+}
+[dir='rtl'] .pads
+{
+  padding-right: 1em; 
+  padding-left: 0;
+}
+
+.pade
+{
+  padding-right: 1em;
+}
+[dir='rtl'] .pade
+{
+  padding-right: 0;
+  padding-left: 1em;
+}
+
+.xpad
+{
+  padding: 2em;
+}
+
+.xpadt,
+.xpadv
+{
+  padding-top: 2em;
+}
+
+.xpadb,
+.xpadv
+{
+  padding-bottom: 2em;
+}
+
+.xpadr,
+.xpadh
+{
+  padding-right: 2em;
+}
+
+.xpadl,
+.xpadh
+{
+  padding-left: 2em;
+}
+
+.xpads
+{
+  padding-left: 2em;
+}
+[dir='rtl'] .xpads
+{
+  padding-right: 2em; 
+  padding-left: 0;
+}
+
+.xpade
+{
+  padding-right: 2em;
+}
+[dir='rtl'] .xpade
+{
+  padding-right: 0;
+  padding-left: 2em;
+}
+
+/**
+ * Text
+ */
+.text-center
+{
+  text-align: center;
+}
+
+.text-start
+{
+  text-align: start;
+}
+
+.text-end
+{
+  text-align: end;
+}
+
+.text-justify
+{
+  text-align: justify;
+}
+
+.text-upper
+{
+  text-transform: uppercase;
+}
+
+.text-lower
+{
+  text-transform: lowercase;
+}
+
+.text-capital
+{
+  text-transform: capitalize;
+}
+
+.text-ellipsis
+{
+  overflow: hidden; 
+
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.vertical-top
+{
+  vertical-align: top;
+}
+
+.vertical-middle
+{
+  vertical-align: middle;
+}
+
+.vertical-bottom
+{
+  vertical-align: bottom;
+}
