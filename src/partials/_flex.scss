@@ -1,0 +1,16 @@
+/**
+ * Flexbox Classes
+ */
+
+.flex-column-container,
+.flex-row-container {
+  display: flex;
+}
+
+.flex-column-container {
+  flex-direction: column;
+}
+
+.flex-row-container {
+  flex-direction: row;
+}

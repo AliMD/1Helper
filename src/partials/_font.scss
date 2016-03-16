@@ -1,0 +1,32 @@
+/**
+ * Font Classes
+ */
+
+.antialiased {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.fs-xsmall {
+  font-size: 0.7em;
+}
+
+.fs-small {
+  font-size: 0.8em;
+}
+
+.fs-medium {
+  font-size: 0.9em;
+}
+
+.fs-large {
+  font-size: 1.1em;
+}
+
+.fs-xlarge {
+  font-size: 1.2em;
+}
+
+.fw-bold {
+  font-weight: bold;
+}
