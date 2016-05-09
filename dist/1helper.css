@@ -602,10 +602,10 @@
 
 .border-solid
 {
-  border: .1em solid black;
+  border: 1px solid black;
 }
 
 .border-dotted
 {
-  border: .1em dotted black;
+  border: 1px dotted black;
 }
