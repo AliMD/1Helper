@@ -599,13 +599,3 @@
 {
   vertical-align: bottom;
 }
-
-.border-solid
-{
-  border: 1px solid black;
-}
-
-.border-dotted
-{
-  border: 1px dotted black;
-}
